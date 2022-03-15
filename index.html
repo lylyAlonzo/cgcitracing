@@ -1,0 +1,35 @@
+<?php 
+    include('register_validation.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div  class="login_div">
+            <h2>Log in</h2>
+            <?php include('errors.php'); ?>
+            <div class="image">
+                <img src="bg-removebg-preview.png" alt="">
+            </div>
+            <form action="index.php" method="POST">
+                <label for="phone_number">Enter phone number</label>
+                <br>
+                <input type="text" name="phone_number">
+                <br>
+                <label for="password">Enter password</label>
+                <input type="password" name="password">
+                <br>
+                <button class="login_btn" type="submit" name="login_btn">Log in</button>
+                <br>
+                <p>Don't have an account? <b><a href="register.php"> Sign up</a></b></p>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

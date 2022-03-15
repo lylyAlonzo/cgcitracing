@@ -1,0 +1,450 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+}
+/* body{
+    background-color: #d9dbdc;
+} */
+.wrapper{
+    width: 100%;
+    padding: 50px;
+    background-color: #d9dbdc;
+    height: 100vh;
+}
+.register_wrapper{
+    background-image: url('bg-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding-top: 90px;
+    opacity: .9;
+    background-color: #d5e0e2;
+}
+.user_wrapper{
+    background-image: url('bg-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: .9;
+    background-color: #d5e0e2;
+}
+.qr_wrapper{
+    background-image: url('bg-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding-top: 90px;
+    opacity: .9;
+    background-color: #d5e0e2;
+}
+
+
+    .login_div{
+        width: 75%;
+        padding: 20px;
+        margin-top: 50px;
+        background-color: #000;
+        margin: 0 auto;
+        border-radius: 10px;
+        /* box-shadow: 0 0 5px 5px gray; */
+    }
+    
+        .login_div form{
+            display: inline-block;
+            vertical-align: middle;
+            width: 34%;
+            
+        }
+        .login_div .image{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .login_div h2{
+            text-align: center;
+            font-size: 35px ;
+            margin-bottom: 50px;
+            color: #d9dbdc;
+            display: block;
+        }
+        .login_div form label{
+            color: #d9dbdc;
+        }
+        .login_div form input{
+            width: 100%;
+            height: 35px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 0;
+            background-color: #000;
+            border-bottom: 1px solid rgb(15, 235, 255);
+            border-right: 1px solid rgb(15, 235, 255);
+            color: #d9dbdc;
+        }
+        .login_div form button{
+            width: 100%;
+            padding: 5px;
+            margin-top: 35px;
+            border-radius: 5px;
+        }
+        .login_div form p{
+            text-align: center;
+            margin-top: 40px;
+            color: #d9dbdc;
+        }
+        .login_div form a{
+            text-decoration: none;
+            color: #d9dbdc;
+        }
+
+        .register_div{
+            width: 75%;
+            padding: 20px;
+            margin-top: 50px;
+            margin: 0 auto;
+            color: #d9dbdc;
+            opacity: .96;
+        }
+        
+            .register_div form{
+                vertical-align: top;
+                width: 55%;
+                background-color: #000;
+                padding: 20px;
+                margin: 0 auto;
+            }
+            .register_div span{
+                color: rgb(214, 49, 49);
+                display: inline-block;
+                vertical-align: top;
+            }
+            .register_div h2{
+                text-align: center;
+                font-size: 25px ;
+                margin-bottom: 10px;
+                color: #d9dbdc;
+            }
+            .register_div form input, select{
+                width: 100%;
+                height: 35px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border: 0;
+                background-color: #000;
+                border: 1px solid gray;
+                color: #feffff;
+            }
+            .error{
+                width: 100%;
+                margin: 0 auto;
+                padding: 7px;
+                line-height: 25px;
+                border: 1px solid #a94442;
+                background-color: #f2dede;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                
+            }
+                .error .error_p{
+                    text-align: left;
+                    color: red;
+                    font-size: 14px;
+                }
+            .register_div form .fname{
+                width: 31%;
+                display: inline-block;
+                margin-right: 13px;
+            }
+            .register_div form .mname{
+                width: 31%;
+                display: inline-block;
+                margin-right: 13px;
+            }
+            .register_div form .lname{
+                width: 31%;
+                display: inline-block;
+            }
+            .register_div form .municipality{
+                width: 48%;
+                display: inline-block;
+                margin-right: 15px;
+            }
+            .register_div form .barangay{
+                width: 48%;
+                display: inline-block;
+            }
+            .register_div form .age{
+                width: 48%;
+                display: inline-block;
+                margin-right: 15px;
+            }
+            .register_div form .gender{
+                width: 48%;
+                display: inline-block;
+            }
+
+            .register_div form button{
+                width: 100%;
+                padding: 5px;
+                margin-top: 15px;
+                border-radius: 5px;
+            }
+            .register_div form .have_account{
+                text-align: center;
+                margin-top: 40px;
+                color: #d9dbdc;
+            }
+            .register_div form a{
+                text-decoration: none;
+                color: #d9dbdc;
+            }
+
+        .user_dash{
+            width: 50%;
+            height: auto;
+            background-color: #000;
+            margin: 0 auto;
+            margin-top: 50px;
+            border-radius: 5px;
+            color: #d9dbdc;
+            padding: 30px;
+            opacity: .98;
+        }
+            .user_dash .user_img{
+                width: 30%;
+                height: 400px;
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+            }
+                .user_dash .user_img .image{
+                    width: 200px;
+                    height: 200px;
+                }
+            .user_dash .user_info{
+                width: 69%;
+                display: inline-block;
+                vertical-align: top;
+                line-height: 65px;
+                margin-bottom: 40px;
+                
+            }
+                .user_dash .user_info h3{
+                    text-align: center;
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                }
+                .user_dash .user_info .details{
+                    display: inline-block;
+                    width: 250px;
+                    vertical-align: top;
+                    font-size: 20px;
+                    margin-left: 60px;
+                }
+                    .user_dash .user_info .details p{
+                        border-bottom: 1px solid rgb(15, 235, 255);
+                    }
+
+                .user_dash .user_info .info{
+                    display: inline-block;
+                    width: 160px;
+                    vertical-align: top;
+                    font-size: 20px;
+                    margin-left: -5px;
+                    
+                }  
+                    .user_dash .user_info .info p{
+                        border-bottom: 1px solid rgb(15, 235, 255);
+                        
+                    }
+                .user_dash .update, .generate_qr{
+                    text-decoration: none;
+                    color: #d9dbdc;
+                    border: 1px solid #d9dbdc;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                }
+                .user_dash .update{
+                    margin-left: 549px;
+                    
+                }
+        .edit_div{
+            width: 75%;
+            padding: 20px;
+            margin-top: 50px;
+            margin: 0 auto;
+            color: #d9dbdc;
+            opacity: .96;
+        }
+            .edit_div form{
+                vertical-align: top;
+                width: 55%;
+                background-color: #000;
+                padding: 20px;
+                margin: 0 auto;
+            }
+            .edit_div span{
+                color: rgb(214, 49, 49);
+                display: inline-block;
+                vertical-align: top;
+            }
+            .edit_div h2{
+                text-align: center;
+                font-size: 25px ;
+                margin-bottom: 50px;
+                color: #d9dbdc;
+            }
+            .edit_div form input, select{
+                width: 100%;
+                height: 35px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border: 0;
+                background-color: #000;
+                border: 1px solid gray;
+                color: #feffff;
+            }
+            .edit_div form .fname{
+                width: 31%;
+                display: inline-block;
+                margin-right: 13px;
+            }
+            .edit_div form .mname{
+                width: 31%;
+                display: inline-block;
+                margin-right: 13px;
+            }
+            .edit_div form .lname{
+                width: 31%;
+                display: inline-block;
+            }
+            .edit_div form .municipality{
+                width: 48%;
+                display: inline-block;
+                margin-right: 15px;
+            }
+            .edit_div form .barangay{
+                width: 48%;
+                display: inline-block;
+            }
+            .edit_div form .age{
+                width: 48%;
+                display: inline-block;
+                margin-right: 15px;
+            }
+            .edit_div form .gender{
+                width: 48%;
+                display: inline-block;
+            }
+
+            .edit_div form button{
+                width: 100%;
+                padding: 5px;
+                margin-top: 15px;
+                border-radius: 5px;
+            }
+            .edit_div form p{
+                text-align: center;
+                margin-top: 40px;
+                color: #d9dbdc;
+            }
+            .edit_div form a{
+                text-decoration: none;
+                color: #d9dbdc;
+            }
+    
+            .qrCode{
+                width: 600px;
+                height: auto;
+                background-color: #000;
+                margin: 0 auto;
+                padding: 40px;
+                margin-top: 50px;
+                text-align: center;
+            }
+                .qrCode h2{
+                    color: #d9dbdc;
+                    margin-bottom: 30px;
+                    font-size: 35px;
+                }
+                .qrCode img{
+                    width: 300px;
+                    height: 300px;
+                }
+    
+
+    .admin_dash{
+        font-size: 0;
+    }
+        .admin_dash .header{
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(71, 67, 67);
+            color:#d9dbdc;
+            font-size: 14px;
+            position: fixed;
+            display: block;
+        }
+            .admin_dash .header h1{
+                display: inline-block;
+            }
+        .admin_dash .content{
+            width: 100%;
+            height: auto;
+        }
+
+            .admin_dash .content .nav{
+                width: 15%;
+                padding: 45px;
+                background-color: #000;
+                height: 95vh;
+                padding-top: 200px;
+                position: fixed;
+                margin-top: 52px;
+                display: inline-block;
+                vertical-align: top;
+            }
+                .admin_dash .content .nav a{
+                    display: block;
+                    text-decoration: none;
+                    color:#d9dbdc;
+                    font-size: 20px;
+                    margin-bottom: 40px;
+                }
+            .admin_dash .table{
+                margin-top: 52px;
+                width: 85%;
+                background-color: white;
+                height: 100vh;
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 15%;
+            }
+                .admin_dash .table h2{
+                    font-size: 30px;
+                    color: #000;
+                    padding: 15px;
+                    margin-top: 30px;
+                }
+                .admin_dash .table p{
+                    font-size: 30px;
+                    color: #000;
+                    padding: 15px;
+                    margin-top: 30px;
+                }
+                .admin_dash .table table{
+                    font-size: 20px;
+                    margin: 0 auto;
+                    width: 85%;
+                }
+                .admin_dash .table table th, td{
+                    padding: 5px;
+                    text-align: center;
+                }
+
+
+
